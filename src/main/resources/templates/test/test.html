@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>用户管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div class="page-container">
+    <div class="left-content">
+        <div class="mother-grid-inner">
+            <!--  顶部文件引入-->
+            <div class="header-main">
+                <div id="head" th:include="developer/com/head::common_head"></div>
+            </div>
+            <div class="inner-block">
+                ...用户管理界面代码(此处省略n行代码)
+            </div>
+        </div>
+    </div>
+    <!--侧边栏导入-->
+    <div class="sidebar-menu">
+        <div th:include="test/com/side::common_side"></div>
+    </div>
+</div>
+</body>
+</html>
